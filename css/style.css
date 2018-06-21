@@ -1,0 +1,295 @@
+
+/* 	Document   : style
+    Author     : Carolina Azofeifa chinchilla
+    Description: Proyecto web, Diseño web2
+*/
+
+/*Reset*/ 
+body,p,h1,h2,h3,h4,h5,h6,ul,ol {margin:0;padding:0;} 
+p,h2,h3,h4,h5,h6,ul,ol {line-height:24px}
+ol,ul,ul {list-style:none;} 
+a{text-decoration:none}
+body {font-family:Arial,verdana, Helvetica, sans-serif;margin:auto;} 
+html{background:} 
+
+/*Wrapper*/
+.wrapper {max-width:940px;margin:0 auto;}
+.header{background:url('../img/layout/fondoHeader.jpg')repeat-x;width:100%;height:4.375em;border-bottom:1px solid #000;} 
+.clearfix:after {
+clear:both;
+display:block;
+content:"";
+visibility:hidden;
+height:1%;
+line-height:0;
+}  
+.logo{float:left;display:block;width:12.2340%;height:1.875em;padding:1.250em 0 1.250em} 
+.container{background:#fff}
+/*menú principal*/
+ul.nav{
+margin:0;padding:0;
+width:51.4893%;height:1.875em;
+margin-top:1.375em;
+display:inline-block;
+float:right;position:relative;
+} 
+.nav li{float:left;padding:0 0.875em;} 
+.nav  a
+{
+border-right:;width:12.3966%;
+height:31px;line-height:31px;margin-left:;
+display:inline-block;
+text-align:center;font-size:12px;font-weight:bold;
+color:#fff;
+}  
+.nav li.active{background:url('../img/content/active.png')no-repeat;}
+.nav li.active,.folio{background:url('../img/content/foActive.png')no-repeat;padding-left:5px}
+.nav li.active,.ctc{background:url('../img/content/ctcActive.png')no-repeat;padding-left:5px}
+
+.SectionSlider{background:url('../img/layout/sectionFondo.jpg')repeat-x;padding-bottom:4.063em;}
+.slider{width:38.2978%;float: left;margin-top:3.375em;}
+.slider h2{color:#fff}
+.slider p{font-size:0.750em;line-height:1.125em;color:#fff}
+.slider :nth-child(2){margin-top:2.188em} 
+.slider :nth-child(3){margin:1.500em 0 1.875em} 
+
+/*Boton dudas*/
+.Button {background:url('../img/content/button.png');float:left;text-align:center;
+width:39.44%;height:2.188em;vertical-align:baseline;} 
+.Button a{color:#fff;margin-top:0.625em;vertical-align:baseline;} 
+
+.graphic{width:38.6170%;height:17.875em;
+margin:2.500em 8.510% 0 13.2978%;
+float:right;}
+
+/*segunda sección*/ 
+.sectionPost{padding: 1.750em 0 1.563em;background:#fff;}
+.sectionPost h2{border-left:0.250em solid #88ab2e;margin:0.313em 0 1.563em;min-height:1.125em;text-indent:1.3829%;} 
+.main div {width:29.78%;float:left;} 
+.main div:nth-child(1){padding: 0 4.680% 0 0;}
+.main div:nth-child(2){padding: 0 4.680% 0 0;} 
+.main div:nth-child(3){padding: 0 1.1702% 0 0;}
+
+.main h3 {font-size:1.125em;line-height:1.500em;padding: 0 0 1.750em;color: #464646;}
+ 
+ /*Sprites icnos*/ 
+.IconSprt{display:block;list-style:none;}
+.IconSprt li{width:18%;float:left;margin-right:7.1428%;padding:0;background:#fff}
+.IconSprt a{height:3.125em;}/**/ 
+.ir {display:block;text-indent:-999999px}
+.look{background:url(../img/content/lupa.png)no-repeat;}  
+.star{background:url(../img/content/star.png)no-repeat;}  
+.video{background:url(../img/content/video.png)no-repeat;} 
+
+.main .MoreBtn {background:url('../img/content/more.png')no-repeat;
+width:25.090%;height:1.750em;text-align:center;
+margin-top:1.188em;float:left;padding-top:0.313em}
+.main .MoreBtn a{color:#fff;} 
+
+/*Sectionwork divs*/
+
+.Sectionwork{padding:1.563em 0 2.750em;}
+.Sectionwork  h2{border-left:0.250em solid #88ab2e;margin:0.313em 0 1.500em;min-height:1.125em;text-indent:1.3829%;} 
+.mainWork div{width:23.4042%;float:left} 
+.mainWork div:nth-child(2){margin-right:2.1276%;} 
+.mainWork div:nth-child(3){margin-right:2.1276%;} 
+.mainWork div:nth-child(4){margin-right:2.1276%;} 
+.mainWork p{font-size:0.875em;font-weight:bold;}
+.mainWork p span{text-transform:uppercase}
+
+/*Navegación pequeña index my work*/ 
+
+.tagNav{display:block;}
+.tagNav li {width:13.636%;float:left;margin:0;padding:3px;} 
+.tagNav a{height:1.250em;font-size:0.750em;font-weight:bold;color:#8caf2f} 
+.sprite_tag {background:url(../img/content/tag.png)no-repeat;}
+.sprite_hi{background:url(../img/content/hi.png)no-repeat;}
+
+/*Footer*/ 
+.footer{padding:1.250em 0 0;background:url(../img/layout/footerFondo.jpg)repeat-x;}
+.footer h3{border-left:0.250em solid #88ab2e;margin:0.313em 0 1.563em;min-height:1.250em;text-indent:13px;}
+
+.cols_footer div{float:left;width:23.4042%;}
+.cols_footer p{font-size:0.750em;color:#fff;line-height:1.188em;margin:1.250em 0 0.625em;}
+
+.cols_footer div:nth-child(1){margin-right:2.1276%;} 
+.cols_footer div:nth-child(2){margin-right:2.1276%;} 
+.cols_footer div:nth-child(3){margin-right:2.1276%;}  
+
+.cols_footer div a:first-child{color:#8caf2f;margin-top:1.250em}  
+.cols_footer div a:nth-child(2n+3){color:#999999;font-size:0.750em} 
+/*divs pequeños del footer*/
+.cols_footer .divs_imgs div{background:url(../img/content/div.jpg)no-repeat;width:20.9090%;height:46px;float:left;margin:0.625em 5.4545% 0 0;} 
+.cols_footer .divs_imgs div:nth-child(5){margin:0.625em 0 0 0;} 
+.cols_footer .divs_imgs div:nth-child(9){margin:0.625em 0 0.625em 0;} 
+
+/*última sección*/ 
+.bottomsection {background:url('../img/layout/bajoFondo2.jpg')repeat-x;padding: 1.188em 0 0.438em;}
+.bottomsection div{}
+.bottomsection p{font-family:Times New Roman;font-size:0.750em;color:#818181;position:relative}
+.logo_Gray,.pLeft,.pRight{float:left;}
+
+.logo_Gray{padding: 0.125em 1.59574% 0 0;margin: 0 1.489% 0 0.744%;}
+.pLeft{padding: 0.125em 0 0;} 
+.pRight{margin-left:30.8510%;}
+
+/*--------------------------------------------------Portafolio estilo---------------------*/ 
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+.Sections{padding-top:1.875em}
+.Sections h3{border-left:0.250em solid #88ab2e;margin:0.313em 0 1.500em;min-height:1.250em;text-indent:13px;}
+
+/*Navegación principal del portafolio*/
+.sectionNav{margin:0.625em 0;display:block;position:relative;width:624px;}
+ul.navFolio{display:block;float:left;position:relative;
+margin:0;padding:0;
+width:624px;height:28px;margin-top:1.375em;
+}
+.navFolio li{float:left;text-align:center;margin-right:6px}
+.navFolio a{height:2.500em;line-height:2.188em;color:#464646;
+font-size:12px;padding:0 ;
+text-transform:uppercase;font-weight:bold
+}
+.navFolio .li1{background:url(../img/content/all.png)no-repeat;width:9.1346%;}
+.navFolio .li2{background:url(../img/content/audio.png)no-repeat;width:11.8589%;}
+.navFolio .li3{background:url(../img/content/developer.png)no-repeat;width:19.070%;}
+.navFolio .li4{background:url(../img/content/web.png)no-repeat;width:11.2179%;}
+.navFolio .li5{background:url(../img/content/print.png)no-repeat;width:19.2307%;}
+.navFolio .li6{background:url(../img/content/grphic.png)no-repeat;width:23.39%;}
+
+/*Navegación pequeña de la derecha estudiar más-----*/
+.TwoButtons{
+width:170px;
+float:right;position:absolute;top:20px;left:760px;
+display:block;
+}
+
+.TwoButtons a {height:29px;line-height:28px;margin-right:6px;
+text-transform:uppercase;text-align: center;
+color:#464646;font-size:12px;font-weight:bold;
+}
+.TwoButtons a:hover{color:#FFF; }
+.leftBtn{padding:7px 14px 7px 14px;text-align: center;
+width:61px;height:29px;
+background:url('../img/content/dateBtn.png');
+} 
+.rightBtn{width:102px;height:29px;
+padding:7px 19px 7px 7px;
+background:url('../img/content/rightButn.png');}
+
+.Fila0 div{margin-bottom:30px}
+/*Imágenes del portafolio*/
+.Fila1 div{width:23.4042%;float:left;}
+
+.Fila2{padding:5.000em 0}
+.Fila2 div{width:23.4042%;float:left;}
+
+.Fila1 div:nth-child(1){margin-right:2.1276%;} 
+.Fila1 div:nth-child(2){margin-right:2.1276%;} 
+.Fila1 div:nth-child(3){margin-right:2.1276%;} 
+
+.Fila2 div:nth-child(1){margin-right:2.1276%;} 
+.Fila2 div:nth-child(2){margin-right:2.1276%;} 
+.Fila2 div:nth-child(3){margin-right:2.1276%;} 
+
+.Fila1, .Fila2 p{font-size:0.875em;font-weight:bold;color:#464646;}
+.Fila1, .Fila2 p span{text-transform:uppercase;text-transform:capitalize;}
+
+/*Navegación de cada portafolio*/ 
+.tagNavFolio{display:block;}
+.tagNavFolio li {width:12.7272%;float:left;padding:0 1.3636% 0 0;} 
+.tagNavFolio a{height:1.250em;font-size:0.750em;font-weight:bold;color:#8caf2f;} 
+.sprite_tag {background:url(../img/content/tag.png)no-repeat;}
+.sprite_hi{background:url(../img/content/hi.png)no-repeat;margin-left:7px}
+.sprite_lik{background:url(../img/content/heart.png)no-repeat;}
+
+/*Navegación nums de página*/ 
+.pagNav{display:block;}
+.pagNav li {float:left;margin:0;padding:0;}
+.pagNav a{width:24px;height:24;font-size:0.750em;font-weight:bold;color:#8caf2f;padding:5px 10px 10px 10px }
+.spPg {background:url(../img/content/pgAction.png)no-repeat;}
+.spPg:hover{background:url(../img/content/pgAcHover.png)no-repeat;color:#fff}
+#1{background-position: -3px -3px}
+#2{background-position: -33px -3px}
+#3{background-position: -62px -3px}
+
+/*-------------------------------------------CONTACTO ESTILO----------------------------------------*/
+#main {width:76.59%;position:relative;float:left;}
+
+.introText{width:91.6666%;padding: 1.875em 0 0.625em;display: block;}
+.introText h2 {border-left:0.250em solid #88ab2e;margin:0 0 1.500em;min-height:1.125em;text-indent:1.3829%;}
+.introText p {font-size:0.750em;margin-bottom:1.500em}
+
+.contactHim{float:left;width:26.3888%;padding-top:1.250em;}
+.contactHim p{font-size:0.750em;line-height:14px;}
+.frts{margin:1.250em 0;}
+.contactHim p:nth-child(6){margin: 0 0 1.250em 0}
+.contactHim p:nth-child(9){margin: 0 0 1.250em 0}
+
+/*Sprites sociales contact*/
+
+.socialNav {display:block;}
+.socialNav li {float:left;margin:0;padding:0;}
+.socialNav a{width:32px;height:32px}
+.sl{background:url(../img/content/socialIcons.png)no-repeat;}
+.sl:hover{background:url(../img/content/sclIconHovr.png)no-repeat;}
+
+#face{background-position: -2px -1px}
+#twiter{background-position: -39px -1px} 
+#gmail{background-position: -78px -1px}
+
+
+
+/*---------------------formulario----------------*/
+.cntcForm {
+width:61.1111%;float:left;display: block;
+height:2.500em;position:relative;margin-left:4.1666%
+}
+fieldset{border:none;}
+form {width:61.1111%;float:left;margin-left:4.1666%;border:none;}
+label {
+margin:0.688em 0 0 0;width:30%;
+text-align:left;font-size:1.000em;color:#464646;display:block;
+overflow:hidden;font-weight:bold;
+}
+input{width:288px;height:33px;border:1px solid #d7d7d7;} 
+.n {text-indent:13px;}
+textarea {width:99.5454%;height:12.500em;text-indent:13px; }
+
+input[type=submit]{
+width:89px;height:36;line-height:24px;float:left;
+margin:1.000em 0 0 0px;padding:4px 0 0 0;
+border:none;cursor:pointer; 
+color:#fff;font-size:0.750em;
+font-weight:bold;
+background:url('../img/content/send.png')
+}
+
+/*Aside*/
+
+.aside {width:23.40%;padding:0 0 45px;float:right;display: block;}
+.aside h3{border-left:0.250em solid #88ab2e;margin:0.313em 0 1.563em;min-height:1.250em;
+text-indent:13px;margin: 1.875em 0 0.625em;}
+.aside p{font-size:0.750em;}
+
+.catgrsNav a{color:#464646;font-size:0.750em;line-height: 0.938em;}
+.catgrsNav a:hover{text-decoration:underline} 
+
+.wrk1 p:nth-child(2){margin: 0 0 1.250em 0;}
+.wrk1 p:nth-child(4){font-size:0.875em;font-weight:bold;color:#464646}
+.wrk2 p{font-size:0.875em;font-weight:bold;color:#464646}
+.wrk2{margin-top:1.250em;}
+
+.twiterDv p{font-size:0.750em;color:#464646;line-height:14px;margin:1.250em 0 0.625em;}
+.twiterDv a:first-child{color:#8caf2f;margin-top:1.250em}  
+.twiterDv a:first-child:hover{text-decoration:underline} 
+.twiterDv a:nth-child(2n+3){color:#999999;font-size:0.750em} 
+
+/*Navegación imgs en el aside*/ ...........................
+.tagNav{display:block;}
+.tagNav li {width:13.636%;float:left;margin:0;padding:3px;} 
+.tagNav a{height:1.250em;font-size:0.750em;font-weight:bold;color:#8caf2f} 
+.sprite_tag {background:url(../img/content/tag.png)no-repeat;}
+.sprite_hi{background:url(../img/content/hi.png)no-repeat;}
+
+

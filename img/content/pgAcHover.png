@@ -1,0 +1,15 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol
+{
+	margin:0;
+	padding:0
+} 
+
+
+/*ul{display:block;
+list-style:none;} 
+li{margin:0;padding:0;float:left;} 
+a{height:32px} 
+.icon{display:block; 
+text-indent:-999999px} 
+.cf {clear:both} 
+#LastFm{left:0px;wid
